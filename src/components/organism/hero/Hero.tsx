@@ -2,6 +2,7 @@ import Title from "../../atoms/title/Title";
 import { HeroStyle, LeftContainer, RightContainer } from "./HeroStyle";
 import hero from "../../../assets/hero.gif";
 import { Button } from "../../atoms/index";
+import handleDownloadPdf from "../../../hooks/DownloadPdf";
 
 function Hero() {
   return (
@@ -22,7 +23,7 @@ function Hero() {
           capacidad para colaborar de manera efectiva y crear soluciones
           digitales innovadoras que satisfagan las necesidades del cliente.
         </p>
-        <Button label={"Descargar CV"}/>
+        <Button onClick={handleDownloadPdf} label={"Descargar CV"}/>
         
       </LeftContainer>
       <RightContainer>
