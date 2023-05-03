@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const SocialStyle = styled.div`
-svg {
-  padding: 0.3rem;
-  cursor: pointer;
-}
-`
+  display: flex;
+  gap: 1rem;
+  svg {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+  }
+`;
