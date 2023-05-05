@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeroStyle = styled.section`
+export const AboutStyle = styled.section`
   display: flex;
   height: 70vh;
   align-items: center;
@@ -21,8 +21,10 @@ export const LeftContainer = styled.div`
  }
 `
 export const RightContainer = styled.div`
-img {
-  width: 27rem;
-  margin: 2rem;
-}
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+  padding-top: 3rem;
+  align-items: center;
+  justify-items: center;
 `

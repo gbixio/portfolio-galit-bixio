@@ -9,7 +9,8 @@ interface Props {
 const Title: React.FC<Props> = ({ title1, title2, highligth, hlcolor }) => {
     return (
         <TitleStyle hlcolor={hlcolor}>
-            {title1}<span>{highligth}</span> {title2}
+            {title1}<span>{highligth}</span> 
+            <br /> {title2}
         </TitleStyle>
     )
 }

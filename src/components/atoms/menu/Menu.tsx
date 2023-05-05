@@ -4,17 +4,17 @@ import { MenuStyle } from "./MenuStyle"
 function Menu() {
   return (
     <MenuStyle>
-        <Link to="/" >
-            <li style={{ textDecoration: 'none' }}>Home</li>
+        <Link style={{ textDecoration: 'none' }} to="/" >
+            <li >  Home</li>
         </Link>
-        <Link to="/about" >    
-            <li style={{ textDecoration: 'none' }}>About me</li>
+        <Link style={{ textDecoration: 'none' }} to="/about" >    
+            <li >About me</li>
         </Link>
-        <Link to="/portfolio" >    
-            <li style={{ textDecoration: 'none' }}>Portfolio</li>
+        <Link style={{ textDecoration: 'none' }} to="/portfolio" >    
+            <li >Portfolio</li>
         </Link>
-        <Link to="/contact" >    
-            <li style={{ textDecoration: 'none' }}>Contact</li>
+        <Link style={{ textDecoration: 'none' }} to="/contact" >    
+            <li >Contact</li>
         </Link>  
     </MenuStyle>
   )
