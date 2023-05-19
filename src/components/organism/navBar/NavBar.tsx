@@ -4,10 +4,12 @@ import { NavBarStyle } from "./NavBarStyle"
 
 function NavBar() {
   return (
-    <NavBarStyle>
-        <TopNav/>
-        <Menu/>
-    </NavBarStyle>
+    <>
+      <NavBarStyle>
+          <TopNav/>
+          <Menu/>
+      </NavBarStyle>
+    </>
   )
 }
 

@@ -1,10 +1,5 @@
 :root {
-  
   --primary-color: hsl(214, 84%, 56);
-  --highlight-color: rgb(113, 5, 208);
-  --text-color: hsl(0, 0%, 31%);
-  --bg-color: rgb(243, 243, 243);
-  --bg-card-color: rgb(240, 240, 240);
   --border-radius: 7px;
   --transition: all 0.4s ease-in-out;
   --font-size: 18px;

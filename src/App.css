@@ -10,6 +10,7 @@ a {
   color: var(--primary-color);
   text-decoration: none;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -24,9 +25,3 @@ body {
   font-size: var(--font-size);
 }
 
-body.dark {
-  --text-color: hsl(0, 0%, 83%);
-  --bg-color: hsl(0, 0%, 15%);
-  --bg-card-color: hsl(0, 0%, 20%);
-  --highlight-color: rgb(176, 83, 243);
-}
