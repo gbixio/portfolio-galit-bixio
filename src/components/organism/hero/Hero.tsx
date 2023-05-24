@@ -15,16 +15,15 @@ function Hero() {
           title2={"fullstack developer."}
         />
         <p>
-          Gracias
-          a mi background creativo, gran pasión por el diseño UX|UI y mi experiencia previa en marketing digital, he adquirido un fuerte enfoque
-          en comunicación y orientación al cliente. 
+          Gracias a mi background creativo, gran pasión por el diseño UX|UI y mi
+          experiencia previa en marketing digital, he adquirido un fuerte
+          enfoque en comunicación y orientación al cliente.
           <br />
-          Soy curiosa y me motiva estar en constante aprendizaje. Me enorgullece mi
-          capacidad para colaborar de manera efectiva y crear soluciones
+          Soy curiosa y me motiva estar en constante aprendizaje. Me enorgullece
+          mi capacidad para colaborar de manera efectiva y crear soluciones
           digitales innovadoras que satisfagan las necesidades del cliente.
         </p>
-        <Button onClick={handleDownloadPdf} label={"Descargar CV"}/>
-        
+        <Button onClick={handleDownloadPdf} label={"Descargar CV"} />
       </LeftContainer>
       <RightContainer>
         <img src={hero} />

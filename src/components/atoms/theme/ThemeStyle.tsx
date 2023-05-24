@@ -15,6 +15,4 @@ export const ThemeStyle = styled.button`
     margin-right: 0.5em;
     width: 20px;
   }
-
-  
 `;

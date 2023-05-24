@@ -1,16 +1,16 @@
-import Menu from "../../atoms/menu/Menu"
-import { TopNav } from "../../molecules"
-import { NavBarStyle } from "./NavBarStyle"
+import Menu from "../../atoms/menu/Menu";
+import { TopNav } from "../../molecules";
+import { NavBarStyle } from "./NavBarStyle";
 
 function NavBar() {
   return (
     <>
       <NavBarStyle>
-          <TopNav/>
-          <Menu/>
+        <TopNav />
+        <Menu />
       </NavBarStyle>
     </>
-  )
+  );
 }
 
-export default NavBar
+export default NavBar;

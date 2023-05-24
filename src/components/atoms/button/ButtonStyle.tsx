@@ -15,9 +15,8 @@ export const ButtonStyle = styled.button`
   font-family: "Ubuntu", sans-serif;
   font-size: var(--font-size);
 
-:hover {
-  background-color: ${(props) => props.theme.highlightcolor}; 
-  transform: translateY(-5px);
-}
-
-`
+  :hover {
+    background-color: ${(props) => props.theme.highlightcolor};
+    transform: translateY(-5px);
+  }
+`;

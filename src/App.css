@@ -25,3 +25,19 @@ body {
   font-size: var(--font-size);
 }
 
+
+
+.dark {
+  --text-color: hsl(0, 0%, 83%);
+  --bg-color: hsl(0, 0%, 15%);
+  --bg-card-color: hsl(0, 0%, 20%);
+  --highlight-color: rgb(176, 83, 243);
+}
+
+.light {
+  --text-color: hsl(0, 0%, 31%);
+  --bg-color: rgb(243, 243, 243);
+  --bg-card-color: rgb(240, 240, 240);
+  --highlight-color: rgb(113, 5, 208);
+
+}

@@ -1,6 +1,6 @@
 :root {
   --primary-color: hsl(214, 84%, 56);
-  --border-radius: 7px;
+  --border-radius: 0.2em;
   --transition: all 0.4s ease-in-out;
   --font-size: 18px;
 }

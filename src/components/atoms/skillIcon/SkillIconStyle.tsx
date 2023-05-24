@@ -8,14 +8,14 @@ export const SkilIconStyle = styled.section`
   padding-bottom: 2rem;
 
   svg {
-  width: 3rem;
-  height: 3rem;
-}
+    width: 3rem;
+    height: 3rem;
+  }
 
   svg:hover {
-  transform: skew(-9deg);
-  transition: var(--transition);
-  cursor: default;
-  color: var(--highlight-color)
-}
-`
+    transform: skew(-9deg);
+    transition: var(--transition);
+    cursor: default;
+    color: ${(props) => props.theme.highlightcolor};
+  }
+`;
