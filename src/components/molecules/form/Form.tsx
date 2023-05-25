@@ -34,7 +34,7 @@ const Form = () => {
     <>
       <FormStyle ref={form} onSubmit={sendEmail}>
         <FormContainer>
-          <Input type="text" name="user_name" placeholder="Nombre" />
+          <Input type="text" name="user_name" placeholder="Nombre | Empresa" />
           <Input type="email" name="user_email" placeholder="Email" />
           <Textarea name="message" placeholder={"Escribe aquí tu mensaje."} />
         </FormContainer>

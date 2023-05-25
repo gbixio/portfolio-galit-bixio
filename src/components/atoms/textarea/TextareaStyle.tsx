@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const TextareaStyle = styled.textarea`
-  width: 430px;
+  width: 40vw;
   height: 10em;
   border: 2px solid ${(props) => props.theme.textcolor};
   border-radius: 5px;
   outline: transparent;
-  font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   padding: 1.5em;
+  font-family: 'Ubuntu', sans-serif;
   text-align: justify;
   background-color: transparent;
   color: gray;

@@ -1,19 +1,23 @@
 import { BsLinkedin, AiFillMail } from "react-icons/all";
 import Title from "../../atoms/title/Title";
-import { ContactStyle, LeftContainer, RightContainer } from "./ContactStyle";
+import { ContactStyle, Container, BottomContainer } from "./ContactStyle";
 import Form from "../../molecules/form/Form";
 
 function Contact() {
   return (
     <ContactStyle>
-      <LeftContainer>
+      <Container>
         <Title
-          title1={"¡Contáctame!"}
-          highligth={""}
+          title1={"Vamos más allá de las líneas de código."}
+          highligth={" ¡Conectemos!"}
           hlcolor={""}
           title2={""}
         />
 
+        <Form />
+        
+      </Container>
+      <BottomContainer>
         <a href="https://www.linkedin.com/in/galit-bixio/">
           <BsLinkedin />
           {" /galit-bixio"}
@@ -23,11 +27,7 @@ function Contact() {
           <AiFillMail />
           {"  galbixio93@gmail.com"}
         </a>
-        <br />
-      </LeftContainer>
-      <RightContainer>
-        <Form />
-      </RightContainer>
+      </BottomContainer>
     </ContactStyle>
   );
 }

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const InputStyle = styled.input`
-  width: 430px;
+  width: 40vw;
   height: 60px;
   border: none;
   border-bottom: 2px solid ${(props) => props.theme.textcolor};

@@ -2,21 +2,21 @@ import styled from "styled-components";
 
 export const ContactStyle = styled.section`
 display: flex;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 margin: 0 auto;
 
 @media screen and (max-width: 768px) {
-flex-direction: column;
+    flex-direction: column;
 }
 
 `;
-export const LeftContainer = styled.div`
+export const Container = styled.div`
 display: flex;
 flex-direction: column;
 justify-content:center;
 margin: 0 auto;
-gap: 1em;
 
 
 @media screen and (max-width: 768px) {
@@ -24,8 +24,23 @@ width: 100vw;
 padding: 3em;
 }`;
 
-export const RightContainer = styled.div`
-margin: 0 auto;
+export const BottomContainer = styled.div`
+display: flex;
+gap: 2rem;
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+  }
+
+svg {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+  }
 
 @media screen and (max-width: 768px) {
 width: 80vw;
