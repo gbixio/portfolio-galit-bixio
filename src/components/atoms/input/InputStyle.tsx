@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const InputStyle = styled.input`
   width: 40vw;
-  height: 60px;
+  height: 50px;
   border: none;
   border-bottom: 2px solid ${(props) => props.theme.textcolor};
   outline: transparent;

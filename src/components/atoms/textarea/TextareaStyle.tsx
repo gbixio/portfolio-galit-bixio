@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const TextareaStyle = styled.textarea`
   width: 40vw;
-  height: 10em;
+  height: 8em;
   border: 2px solid ${(props) => props.theme.textcolor};
   border-radius: 5px;
   outline: transparent;
-  font-size: 18px;
+  font-size: 16px;
   padding: 1.5em;
   font-family: 'Ubuntu', sans-serif;
   text-align: justify;

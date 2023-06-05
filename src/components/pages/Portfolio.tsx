@@ -1,7 +1,10 @@
+import CardGrid from "../molecules/portfolioContainer/PortfolioContainer"
 
 function Portfolio() {
   return (
-    <div>Portfolio</div>
+    <>
+    <CardGrid />
+    </>
   )
 }
 

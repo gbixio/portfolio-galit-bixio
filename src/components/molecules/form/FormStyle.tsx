@@ -5,10 +5,11 @@ export const FormStyle = styled.form`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: transparent;
   width: 656px;
-  height: 535px;
+  height: 100%;
   margin: 0 auto;
+  gap: 1rem;
 
   @media screen and (max-width: 768px) {
     width: 20em;
@@ -18,11 +19,11 @@ export const FormStyle = styled.form`
 
 export const FormContainer = styled.div`
   display: flex;
-  gap: 24px;
+  gap: 1rem;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   @media screen and (max-width: 768px) {
   }
 `;

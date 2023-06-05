@@ -4,11 +4,14 @@
 * {
   box-sizing: border-box;
   list-style: none;
+ 
 }
 
 a {
   color: var(--primary-color);
   text-decoration: none;
+  font-size: 16px;
+
 }
 
 a:hover {
@@ -19,27 +22,13 @@ a:hover {
 body {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100%;
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: "Ubuntu", sans-serif;
-  font-size: var(--font-size);
+  font-size: 16px;
 }
 
-
-
-.dark {
-  --text-color: hsl(0, 0%, 83%);
-  --bg-color: hsl(0, 0%, 15%);
-  --bg-card-color: hsl(0, 0%, 20%);
-  --highlight-color: rgb(176, 83, 243);
-}
-
-.light {
-  --text-color: hsl(0, 0%, 31%);
-  --bg-color: rgb(243, 243, 243);
-  --bg-card-color: rgb(240, 240, 240);
-  --highlight-color: rgb(113, 5, 208);
-
+main {
+  margin-left: 4rem;
+  margin-right: 4rem;
 }

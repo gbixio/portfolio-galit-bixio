@@ -7,6 +7,7 @@ align-items: center;
 justify-content: center;
 margin: 0 auto;
 
+
 @media screen and (max-width: 768px) {
     flex-direction: column;
 }
@@ -14,10 +15,15 @@ margin: 0 auto;
 `;
 export const Container = styled.div`
 display: flex;
-flex-direction: column;
+flex-direction: row;
+gap: 4rem;
 align-items: center;
 justify-content:center;
+width: 90%;
+height: 60vh;
 margin: 0 auto;
+text-align: center;
+
 
 
 @media screen and (max-width: 768px) {
@@ -28,6 +34,8 @@ padding: 3em;
 export const BottomContainer = styled.div`
 display: flex;
 gap: 2rem;
+position: fixed;
+bottom: 1rem;
 
 a {
     display: flex;
@@ -47,3 +55,5 @@ svg {
 width: 80vw;
 }
 `;
+
+

@@ -2,19 +2,18 @@ import styled from "styled-components";
 
 export const AboutStyle = styled.section`
   display: flex;
-  height: 70vh;
   align-items: center;
   justify-content: center;
-  gap: 10rem;
+  gap: 8rem;
 `
 export const LeftContainer = styled.div`
-  width: 30vw;
-  margin: 1rem;
+  width: 40%;
   justify-content: flex-end;
 
   p {
   line-height: 1.8rem;
   margin-bottom: 3rem;
+  font-size: 16px;
 }
  Button {
   margin-left: 20vw;
