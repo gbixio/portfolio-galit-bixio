@@ -42,7 +42,7 @@ export const FrontContent = styled.div`
     font-size: 2rem;
     font-weight: 700;
     opacity: 1;
-    background: linear-gradient(-45deg, #29f883 0%, #535bf2 100%);
+    background: linear-gradient(-45deg, #53f2a5 0%,rgb(113, 5, 208) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -61,11 +61,10 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 10px;
-  background: linear-gradient(-45deg, #29f883 0%, #535bf2 100%);
+  background: linear-gradient(-45deg, #36ac73 0%, rgb(113, 5, 208) 100%);
   color: #e8e8e8;
-  padding: 20px;
-  line-height: 1.5;
+  padding: 10px;
+  line-height: 1.2;
   border-radius: 5px;
   pointer-events: none;
   transform: translateY(96%);

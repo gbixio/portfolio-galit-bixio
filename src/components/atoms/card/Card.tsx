@@ -6,6 +6,7 @@ interface Props {
   resume: string;
   height: string;
   width: string;
+  
 }
 const Card: React.FC<Props> = ({  title, rol, resume, height, width}) => {
   return (
@@ -22,6 +23,7 @@ const Card: React.FC<Props> = ({  title, rol, resume, height, width}) => {
           </p>
         </Content>
       </Cards>
+
     </CardContainer>
   </>
   );
