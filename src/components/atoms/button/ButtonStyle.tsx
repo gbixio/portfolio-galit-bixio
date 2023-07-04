@@ -19,4 +19,6 @@ export const ButtonStyle = styled.button`
     background-color: ${(props) => props.theme.highlightcolor};
     transform: translateY(-5px);
   }
+
+
 `;

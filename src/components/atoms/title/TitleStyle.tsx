@@ -8,4 +8,9 @@ export const TitleStyle = styled.h1<{ hlcolor: string }>`
   span {
     color: ${(props) => props.hlcolor};
   }
+
+  @media screen and (max-width: 768px) {
+  font-size: 1.7rem;
+  font-weight: 700;
+  }
 `;
