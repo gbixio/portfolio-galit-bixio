@@ -5,7 +5,7 @@ display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
-
+  width: 100vw;
 
   li {
     margin: 0 auto;
@@ -41,11 +41,8 @@ display: flex;
 
 flex-direction: column;
 justify-content: center;
-background-color: #ec6060;
 text-align: center;
 margin: 0 auto;
-height: 75vh;
-width: 100%;
 
 
 }
