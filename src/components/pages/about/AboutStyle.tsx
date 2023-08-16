@@ -5,6 +5,11 @@ export const AboutStyle = styled.section`
   align-items: center;
   justify-content: center;
   gap: 8rem;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
 `
 export const LeftContainer = styled.div`
   width: 40%;
@@ -18,6 +23,9 @@ export const LeftContainer = styled.div`
  Button {
   margin-left: 20vw;
  }
+ @media screen and (max-width: 768px) {
+  width: 90%;
+  }
 `
 export const RightContainer = styled.div`
   display: grid;
@@ -26,4 +34,13 @@ export const RightContainer = styled.div`
   padding-top: 3rem;
   align-items: center;
   justify-items: center;
+
+  @media screen and (max-width: 768px) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  height: 90%;
+
+  }
 `

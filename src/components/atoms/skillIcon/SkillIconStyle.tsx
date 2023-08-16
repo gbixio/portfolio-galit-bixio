@@ -18,4 +18,12 @@ export const SkilIconStyle = styled.section`
     cursor: default;
     color: ${(props) => props.theme.highlightcolor};
   }
+  @media screen and (max-width: 768px) {
+    padding-bottom: 1rem;
+    margin: .3rem;
+    svg {
+      width: 2rem;
+    height: 2rem;
+  }
+}
 `;

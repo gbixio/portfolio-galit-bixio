@@ -1,4 +1,4 @@
-import { Hero } from "../organism/index"
+import { Hero } from "../../organism/index"
 
 function Home() {
   return (

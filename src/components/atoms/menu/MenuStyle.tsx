@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const MenuStyle = styled.ul`
-  display: flex;
+display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  width: 100vw;
-  min-height: 10vh;
+
 
   li {
     margin: 0 auto;
@@ -37,4 +36,19 @@ export const MenuStyle = styled.ul`
   li:hover {
     color: ${(props) => props.theme.highlightcolor};
   }
-`;
+
+  @media screen and (max-width: 768px) {
+
+flex-direction: column;
+justify-content: center;
+background-color: #ec6060;
+text-align: center;
+margin: 0 auto;
+height: 75vh;
+width: 100%;
+
+
+}
+
+
+`

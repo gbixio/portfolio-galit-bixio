@@ -1,16 +1,23 @@
-import Menu from "../../atoms/menu/Menu";
+import { AiOutlineMenu } from "react-icons/ai";
+import useHamburger from "../../../hooks/useHamburger";
 import { TopNav } from "../../molecules";
-import { NavBarStyle } from "./NavBarStyle";
+import { NavStyle } from "./NavStyle";
+import { Menu } from "../../atoms";
 
 function NavBar() {
+  const [isOpen, hamburgerMenu] = useHamburger(false);
   return (
-    <>
-      <NavBarStyle>
+    <> 
         <TopNav />
-        <Menu />
-      </NavBarStyle>
+    <NavStyle>
+        <AiOutlineMenu onClick={hamburgerMenu} />
+        {isOpen && <Menu />}
+       
+      </NavStyle>
     </>
   );
 }
 
 export default NavBar;
+
+   
