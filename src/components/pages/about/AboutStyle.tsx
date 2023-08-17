@@ -9,24 +9,23 @@ export const AboutStyle = styled.section`
     flex-direction: column;
     gap: 3rem;
   }
-
-`
+`;
 export const LeftContainer = styled.div`
   width: 40%;
   justify-content: flex-end;
 
   p {
-  line-height: 1.8rem;
-  margin-bottom: 3rem;
-  font-size: 16px;
-}
- Button {
-  margin-left: 20vw;
- }
- @media screen and (max-width: 768px) {
-  width: 90%;
+    line-height: 1.8rem;
+    margin-bottom: 3rem;
+    font-size: 16px;
   }
-`
+  Button {
+    margin-left: 20vw;
+  }
+  @media screen and (max-width: 768px) {
+    width: 90%;
+  }
+`;
 export const RightContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -36,11 +35,10 @@ export const RightContainer = styled.div`
   justify-items: center;
 
   @media screen and (max-width: 768px) {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 90%;
-  height: 90%;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
   }
-`
+`;

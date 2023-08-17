@@ -2,7 +2,22 @@ import { IoLogoJavascript } from "react-icons/io5";
 import SkillIcon from "../../atoms/skillIcon/SkilIcon";
 import Title from "../../atoms/title/Title";
 import { AboutStyle, LeftContainer, RightContainer } from "./AboutStyle";
-import { SiCss3, ImHtmlFive, SiTypescript, DiReact, FaNode, SiNestjs, SiMongodb, FiFigma, SiPostman, SiStyledcomponents, SiMysql, TfiGithub, SiJest, FaPython } from "react-icons/all";
+import {
+  SiCss3,
+  ImHtmlFive,
+  SiTypescript,
+  DiReact,
+  FaNode,
+  SiNestjs,
+  SiMongodb,
+  FiFigma,
+  SiPostman,
+  SiStyledcomponents,
+  SiMysql,
+  TfiGithub,
+  SiJest,
+  FaPython,
+} from "react-icons/all";
 
 function About() {
   return (
@@ -25,21 +40,24 @@ function About() {
         </p>
       </LeftContainer>
       <RightContainer>
-        <SkillIcon skill={"HTML"} icon={<ImHtmlFive/>}></SkillIcon>
-        <SkillIcon skill={"CSS"} icon={<SiCss3/>}></SkillIcon>
-        <SkillIcon skill={"TypeScript"} icon={<SiTypescript/>}></SkillIcon>
-        <SkillIcon skill={"JavaScript"} icon={<IoLogoJavascript/>}></SkillIcon>
-        <SkillIcon skill={"React"} icon={<DiReact/>}></SkillIcon>
-        <SkillIcon skill={"Node"} icon={<FaNode/>}></SkillIcon>
-        <SkillIcon skill={"Nestjs"} icon={<SiNestjs/>}></SkillIcon>
-        <SkillIcon skill={"MongoDB"} icon={<SiMongodb/>}></SkillIcon>
-        <SkillIcon skill={"Figma"} icon={<FiFigma/>}></SkillIcon>
-        <SkillIcon skill={"Postman"} icon={<SiPostman/>}></SkillIcon>
-        <SkillIcon skill={"Styled Components"} icon={<SiStyledcomponents/>}></SkillIcon>
-        <SkillIcon skill={"Mysql"} icon={<SiMysql/>}></SkillIcon>
-        <SkillIcon skill={"GitHub"} icon={<TfiGithub/>}></SkillIcon>
-        <SkillIcon skill={"Jest"} icon={<SiJest/>}></SkillIcon>
-        <SkillIcon skill={"Python"} icon={<FaPython/>}></SkillIcon>
+        <SkillIcon skill={"HTML"} icon={<ImHtmlFive />}></SkillIcon>
+        <SkillIcon skill={"CSS"} icon={<SiCss3 />}></SkillIcon>
+        <SkillIcon skill={"TypeScript"} icon={<SiTypescript />}></SkillIcon>
+        <SkillIcon skill={"JavaScript"} icon={<IoLogoJavascript />}></SkillIcon>
+        <SkillIcon skill={"React"} icon={<DiReact />}></SkillIcon>
+        <SkillIcon skill={"Node"} icon={<FaNode />}></SkillIcon>
+        <SkillIcon skill={"Nestjs"} icon={<SiNestjs />}></SkillIcon>
+        <SkillIcon skill={"MongoDB"} icon={<SiMongodb />}></SkillIcon>
+        <SkillIcon skill={"Figma"} icon={<FiFigma />}></SkillIcon>
+        <SkillIcon skill={"Postman"} icon={<SiPostman />}></SkillIcon>
+        <SkillIcon
+          skill={"Styled Components"}
+          icon={<SiStyledcomponents />}
+        ></SkillIcon>
+        <SkillIcon skill={"Mysql"} icon={<SiMysql />}></SkillIcon>
+        <SkillIcon skill={"GitHub"} icon={<TfiGithub />}></SkillIcon>
+        <SkillIcon skill={"Jest"} icon={<SiJest />}></SkillIcon>
+        <SkillIcon skill={"Python"} icon={<FaPython />}></SkillIcon>
       </RightContainer>
     </AboutStyle>
   );

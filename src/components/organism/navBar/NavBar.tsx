@@ -7,17 +7,14 @@ import { Menu } from "../../atoms";
 function NavBar() {
   const [isOpen, hamburgerMenu] = useHamburger(false);
   return (
-    <> 
-        <TopNav />
-    <NavStyle>
+    <>
+      <TopNav />
+      <NavStyle>
         <AiOutlineMenu onClick={hamburgerMenu} />
         {isOpen && <Menu />}
-       
       </NavStyle>
     </>
   );
 }
 
 export default NavBar;
-
-   

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MenuStyle = styled.ul`
-display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
@@ -38,14 +38,9 @@ display: flex;
   }
 
   @media screen and (max-width: 768px) {
-
-flex-direction: column;
-justify-content: center;
-text-align: center;
-margin: 0 auto;
-
-
-}
-
-
-`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+`;

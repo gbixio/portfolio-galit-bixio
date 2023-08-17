@@ -8,7 +8,7 @@ export const TextareaStyle = styled.textarea`
   outline: transparent;
   font-size: 16px;
   padding: 1.5em;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   text-align: justify;
   background-color: transparent;
   color: gray;

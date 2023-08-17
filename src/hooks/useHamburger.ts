@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 const useHamburger = (initialState: boolean = false): [boolean, () => void] => {
   const [state, setState] = useState<boolean>(initialState);

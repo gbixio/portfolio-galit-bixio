@@ -20,10 +20,10 @@ export const SkilIconStyle = styled.section`
   }
   @media screen and (max-width: 768px) {
     padding-bottom: 1rem;
-    margin: .3rem;
+    margin: 0.3rem;
     svg {
       width: 2rem;
-    height: 2rem;
+      height: 2rem;
+    }
   }
-}
 `;

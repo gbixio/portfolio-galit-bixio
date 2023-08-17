@@ -10,7 +10,7 @@ export const TitleStyle = styled.h1<{ hlcolor: string }>`
   }
 
   @media screen and (max-width: 768px) {
-  font-size: 1.7rem;
-  font-weight: 700;
+    font-size: 1.7rem;
+    font-weight: 700;
   }
 `;

@@ -12,8 +12,9 @@ export const FormStyle = styled.form`
   gap: 1rem;
 
   @media screen and (max-width: 768px) {
-    width: 20em;
-    height: 500px;
+    width: 90%;
+    height: 70%;
+
   }
 `;
 
@@ -24,6 +25,5 @@ export const FormContainer = styled.div`
   align-items: flex-start;
   justify-content: center;
   margin-bottom: 1em;
-  @media screen and (max-width: 768px) {
-  }
+ 
 `;

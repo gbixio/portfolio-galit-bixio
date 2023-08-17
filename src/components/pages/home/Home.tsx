@@ -1,11 +1,11 @@
-import { Hero } from "../../organism/index"
+import { Hero } from "../../organism/index";
 
 function Home() {
   return (
     <div>
-        <Hero/>
+      <Hero />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

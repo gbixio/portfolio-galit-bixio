@@ -9,25 +9,31 @@ export const PortfolioContainer = styled.section`
   justify-items: center;
   row-gap: 2rem;
 
-  grid-template-areas: "col1 col2 col3"
-                         "col1 col4 col5";
+  grid-template-areas:
+    "col1 col2 col3"
+    "col1 col4 col5";
 
-    .card1{
-        grid-area: col1;
-    }
+  .card1 {
+    grid-area: col1;
+  }
 
-    .card2{
-        grid-area: col2;
-    }
+  .card2 {
+    grid-area: col2;
+  }
 
-    .card3{
-        grid-area: col3;
-    }
-    .card4{
-        grid-area: col4;
-    }
-    .card5{
-        grid-area: col5;
-    }
+  .card3 {
+    grid-area: col3;
+  }
+  .card4 {
+    grid-area: col4;
+  }
+  .card5 {
+    grid-area: col5;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 `;
-

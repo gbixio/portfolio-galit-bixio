@@ -9,11 +9,9 @@ export const NavStyle = styled.ul`
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
-   
+
     svg {
       display: block;
-
     }
   }
-
 `;

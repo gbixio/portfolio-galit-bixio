@@ -8,5 +8,4 @@ export const TopNavStyle = styled.div`
   width: 100vw;
   padding: 0 1.5em;
   background-color: ${(props) => props.theme.bgcardcolor};
-
-`
+`;

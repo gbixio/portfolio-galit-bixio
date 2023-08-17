@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export const CardContainer = styled.div<{ width: string , height: string }>`
-  width:  ${props => props.width};
-  height:  ${props => props.height};
+export const CardContainer = styled.div<{ width: string; height: string }>`
+  width: ${(props) => props.width};
+  height: ${(props) => props.height};
   position: relative;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -21,7 +21,10 @@ export const CardContainer = styled.div<{ width: string , height: string }>`
       transform: translateY(0);
     }
   }
-
+  @media screen and (max-width: 768px) {
+    width: 20rem;
+    height: 20rem;
+  }
 `;
 
 export const Cards = styled.div`
@@ -36,17 +39,17 @@ export const FrontContent = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 
   p {
     font-size: 2rem;
     font-weight: 700;
     opacity: 1;
-    background: linear-gradient(-45deg, #53f2a5 0%,rgb(113, 5, 208) 100%);
+    background: linear-gradient(-45deg, #53f2a5 0%, rgb(113, 5, 208) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   }
 `;
 
@@ -68,7 +71,7 @@ export const Content = styled.div`
   border-radius: 5px;
   pointer-events: none;
   transform: translateY(96%);
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 `;
 
 export const Heading = styled.p`
