@@ -11,7 +11,8 @@ function NavBar() {
       <TopNav />
       <NavStyle>
         <AiOutlineMenu onClick={hamburgerMenu} />
-        {isOpen && <Menu />}
+        {isOpen ||<Menu/>}
+        
       </NavStyle>
     </>
   );

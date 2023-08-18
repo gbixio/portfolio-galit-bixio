@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const HeroStyle = styled.section`
   display: flex;
-  height: 70%;
+  height: 80%;
+  width: 90vw;
   align-items: center;
   justify-content: center;
-  gap: 10rem;
+  gap: 3rem;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -13,8 +14,8 @@ export const HeroStyle = styled.section`
   }
 `;
 export const LeftContainer = styled.div`
-  width: 30vw;
-  height: 100%;
+  width: 40%;
+  height: 90%;
   margin: 1rem;
   justify-content: flex-end;
 

@@ -1,17 +1,18 @@
 import styled from "styled-components";
 
-export const NavStyle = styled.ul`
+export const NavStyle = styled.section`
+display: flex;
+align-items: flex-end;
+flex-direction: column;
   svg {
+    margin: 1rem;
     width: 25px;
     height: 25px;
-    display: none;
   }
-  @media screen and (max-width: 768px) {
-    display: flex;
-    flex-direction: column;
-
+  @media screen and (min-width: 768px) {
+   
     svg {
-      display: block;
+    display: none;
     }
   }
 `;

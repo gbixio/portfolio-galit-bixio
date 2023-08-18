@@ -5,7 +5,7 @@ export const MenuStyle = styled.ul`
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  width: 100vw;
+  width: 100%;
 
   li {
     margin: 0 auto;
@@ -40,7 +40,6 @@ export const MenuStyle = styled.ul`
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
   }
 `;
