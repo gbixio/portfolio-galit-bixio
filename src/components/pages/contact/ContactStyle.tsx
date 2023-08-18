@@ -21,7 +21,7 @@ export const Container = styled.div`
   @media screen and (max-width: 768px) {
     flex-direction: column;
     margin-top: 1rem;
-    gap: 1rem;
+    gap: 2rem;
   }
 `;
 
@@ -29,6 +29,7 @@ export const BottomContainer = styled.div`
   display: flex;
   gap: 2rem;
   position: fixed;
+  bottom: 1;
   bottom: 1rem;
 
   a {

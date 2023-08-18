@@ -32,11 +32,13 @@ export const LeftContainer = styled.div`
       margin-bottom: 1.5rem;
     }
     Button {
+      margin-top: 2rem;
       margin-left: 30vw;
     }
   }
 `;
 export const RightContainer = styled.div`
+width: 40%;
   img {
     width: 27rem;
     margin: 2rem;
