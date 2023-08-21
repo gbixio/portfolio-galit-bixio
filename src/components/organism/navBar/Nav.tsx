@@ -1,22 +1,19 @@
-import { useState } from "react";
-import BurguerButton from "../../../atoms/burger/Burger";
-import { Nav1Style, BgDiv, Menu } from "./Nav1Style";
-import { TopNav } from "../../../molecules/index";
+import BurguerButton from "../../atoms/burger/Burger";
+import { NavStyle, BgDiv, Menu } from "./NavStyle";
+import { TopNav } from "../../molecules/index";
 import { Link } from "react-router-dom";
+import useClickedState from "../../../hooks/useClickedState";
+import useNavClose from "../../../hooks/useNavClose";
 
-function Nav1() {
-  const [clicked, setClicked] = useState(false);
-  const handleClick = () => {
-    setClicked(!clicked);
-  };
-  const closeNav = () => {
-    setClicked(false);
-  };
+function Nav() {
+
+  const [clicked, handleClick] = useClickedState(false);
+  const closeNav = useNavClose();
 
   return (
     <>
       <TopNav />
-      <Nav1Style>
+      <NavStyle>
         <Menu className={`links ${clicked ? "active" : ""}`}>
           <Link onClick={closeNav} style={{ textDecoration: "none" }} to="/">
             <a> Home</a>
@@ -48,9 +45,9 @@ function Nav1() {
           <BurguerButton clicked={clicked} handleClick={handleClick} />
         </div>
         <BgDiv className={`initial ${clicked ? " active" : ""}`}></BgDiv>
-      </Nav1Style>
+      </NavStyle>
     </>
   );
 }
 
-export default Nav1;
+export default Nav;

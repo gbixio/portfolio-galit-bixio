@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 // import { NavBar } from "../../organism/index";
 import { ThemeProvider } from "styled-components";
 import useThemeSwitcher from "../../../hooks/UseTheme";
-import Nav1 from "../../organism/navBar/navprueba/Nav1";
+import Nav1 from "../../organism/navBar/Nav";
 
 const Layout = () => {
   const { currentTheme } = useThemeSwitcher();

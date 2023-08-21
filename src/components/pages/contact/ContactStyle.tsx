@@ -6,6 +6,7 @@ export const ContactStyle = styled.section`
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  
 `;
 export const Container = styled.div`
   display: flex;
@@ -22,6 +23,8 @@ export const Container = styled.div`
     flex-direction: column;
     margin-top: 1rem;
     gap: 2rem;
+    z-index: -2;
+
   }
 `;
 
@@ -45,6 +48,7 @@ export const BottomContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     gap: 0.9rem;
+
   
   }
 `;

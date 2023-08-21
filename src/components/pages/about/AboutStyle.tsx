@@ -5,6 +5,7 @@ export const AboutStyle = styled.section`
   align-items: center;
   justify-content: center;
   gap: 8rem;
+  z-index: -2;
   @media screen and (max-width: 768px) {
     flex-direction: column;
     gap: 3rem;

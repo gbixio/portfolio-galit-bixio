@@ -17,8 +17,8 @@ export const LeftContainer = styled.div`
   width: 40%;
   height: 100%;
   margin: 1rem;
-  display: blok;
-
+  display: block;
+  z-index: -2;
   align-items: center;
 
   p {
