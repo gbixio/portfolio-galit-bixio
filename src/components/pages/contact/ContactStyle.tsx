@@ -28,9 +28,7 @@ export const Container = styled.div`
 export const BottomContainer = styled.div`
   display: flex;
   gap: 2rem;
-  position: absolute;
-  bottom: 1;
-  bottom: 1rem;
+  margin-top: 6rem;
 
   a {
     display: flex;

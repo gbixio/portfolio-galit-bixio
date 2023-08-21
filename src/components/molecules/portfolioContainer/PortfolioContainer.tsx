@@ -6,8 +6,8 @@ const CardGrid = () => {
     <PortfolioContainer>
       <a className="card1" href="https://github.com/Enlace-Urbano">
         <Card
-          height={"70vh"}
-          width={"70vh"}
+          height={"60vh"}
+          width={"30rem"}
           title={"Enlace Urbano"}
           rol={"Product Owner | Developer | UX/UI "}
           resume={
@@ -15,13 +15,14 @@ const CardGrid = () => {
           }
         />
       </a>
+
       <a
         className="card2"
         href="https://github.com/gbixio/front-recette-social-recetasreactivas"
       >
         <Card
-          height={"32vh"}
-          width={"300px"}
+          height={"28vh"}
+          width={"20rem"}
           title={"La Recette Social"}
           rol={"Developer"}
           resume={
@@ -31,8 +32,8 @@ const CardGrid = () => {
       </a>
       <a className="card3" href="https://github.com/Death-Code/Death-Code">
         <Card
-          height={"32vh"}
-          width={"300px"}
+          height={"28vh"}
+          width={"20rem"}
           title={"Death Code"}
           rol={"Developer"}
           resume={
@@ -45,8 +46,8 @@ const CardGrid = () => {
         href="https://github.com/adoptacoder-app/adoptacoder"
       >
         <Card
-          height={"32vh"}
-          width={"300px"}
+          height={"28vh"}
+          width={"20rem"}
           title={"Adopt a coder"}
           rol={"UX/UI | Developer"}
           resume={
@@ -56,8 +57,8 @@ const CardGrid = () => {
       </a>
       <a className="card5" href="https://github.com/gbixio/soundwave-react">
         <Card
-          height={"32vh"}
-          width={"300px"}
+          height={"28vh"}
+          width={"20rem"}
           title={"Soundwave"}
           rol={"Developer"}
           resume={"Primera App en React realizada basándome en un mockup"}

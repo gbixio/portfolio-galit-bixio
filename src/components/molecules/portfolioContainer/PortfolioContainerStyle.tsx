@@ -3,11 +3,13 @@ import styled from "styled-components";
 export const PortfolioContainer = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 80vw;
   margin: 0 auto;
+  gap: 1rem;
   align-items: center;
   justify-items: center;
-  row-gap: 2rem;
+  width: 80vw;
+  z-index: -2;
+  
 
   grid-template-areas:
     "col1 col2 col3"
@@ -31,7 +33,7 @@ export const PortfolioContainer = styled.section`
     grid-area: col5;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -15,17 +15,17 @@ export const HeroStyle = styled.section`
 `;
 export const LeftContainer = styled.div`
   width: 40%;
-  height: 90%;
+  height: 100%;
   margin: 1rem;
-  justify-content: flex-end;
+  display: blok;
+
+  align-items: center;
 
   p {
     line-height: 1.8rem;
     margin-bottom: 3rem;
   }
-  Button {
-    margin-left: 20vw;
-  }
+
   @media screen and (max-width: 768px) {
     width: 95%;
     p {
@@ -33,12 +33,11 @@ export const LeftContainer = styled.div`
     }
     Button {
       margin-top: 2rem;
-      margin-left: 30vw;
     }
   }
 `;
 export const RightContainer = styled.div`
-width: 40%;
+  width: 40%;
   img {
     width: 27rem;
     margin: 2rem;

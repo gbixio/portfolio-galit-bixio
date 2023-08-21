@@ -21,7 +21,7 @@ export const CardContainer = styled.div<{ width: string; height: string }>`
       transform: translateY(0);
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     width: 20rem;
     height: 20rem;
   }
